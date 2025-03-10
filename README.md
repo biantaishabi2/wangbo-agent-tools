@@ -6,12 +6,12 @@
 
 基本安装：
 ```bash
-pip install wangbo-agent-tools
+pip install git+https://github.com/biantaishabi2/agent_tools_package.git
 ```
 
 包含Gemini支持的安装：
 ```bash
-pip install wangbo-agent-tools[gemini]
+pip install git+https://github.com/biantaishabi2/agent_tools_package.git#egg=wangbo-agent-tools[gemini]
 ```
 
 ## 主要组件
